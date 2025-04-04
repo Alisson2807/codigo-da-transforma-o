@@ -1,28 +1,28 @@
-print("Ola mundo")
+print('ola mundo')
+print('gosto de jogar bola')
+print('eu so da bahia')
+caixa='abacate'
 
-caixa='caneta' 
- 
-print (caixa)
+print(caixa)
 
-nome='carlos'
-idade= 18
-altura= 1.70
-estudante= True
+nome='alisson'
+idade=16
+altura=1.78
+estudante=True
 
-print(f'nome:{nome}, idade: {idade}, altura: {altura}, estudante: {estudante}')
+print(nome,idade,altura,estudante)
 
-mensagem = "python e divertido" 
-
+mensagem='bem vindo ao fut de cria'
 print(mensagem.strip())
-print(mensagem.lower())
 print(mensagem.upper())
+print(mensagem.lower())
 
-nome = input("qual o seu nome? ")
-print(f'Ola {nome}, seja bem vindo')
+nome=input('qual e o seu nome?')
+print(f'ola {nome},seja muito bem vindo ao codigo da transformação')
 
 from datetime import datetime
 
-nome = input("qual e o seu nome? ")
-agora = datetime.now()
-hora_atual= agora.strftime("%H:%M")
-print(f'Ola, {nome}! agora sao {hora_atual}.')
+nome= input('qual e o seu nome')
+agora= datetime.now()
+hora_atual = agora.strftme('%H:%M')
+print(f'ola,{nome}!agora são {hora_atual}')
